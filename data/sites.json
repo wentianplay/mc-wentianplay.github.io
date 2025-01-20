@@ -1,0 +1,60 @@
+{
+    "官方网站导航": {
+        "icon": "",
+        "data": [
+            {
+                "name": "导航站",
+                "icon": "./assets/icon.ico",
+                "url": "https://WWW.WenTianPlay.com/",
+                "describe": "文天玩WenTian Play | 官方导航网站🐍 -文天玩网络科技有限公司"
+            }
+        ]
+    },
+    "官方网页导航": {
+        "icon": "",
+        "data": [
+            {
+                "name": "国际站",
+                "icon": "./assets/icon.ico",
+                "url": "https://API.WenTianPlay.com/",
+                "describe": "文天玩WenTianPlay国际站-文天玩网络科技有限公司"
+            },
+            {
+                "name": "中国站",
+                "icon": "./assets/icon.ico",
+                "url": "https://www.WenTianPlay.cn/",
+                "describe": "文天玩WenTianPlay中国站-文天玩网络科技有限公司"
+            },
+            {
+                "name": "数据站",
+                "icon": "./assets/icon.ico",
+                "url": "https://www.WenTianPlay.NET/",
+                "describe": "文天玩WenTianPlay数据站-文天玩网络科技有限公司"
+            }
+        ]
+    },
+    "我的世界导航": {
+        "icon": "",
+        "data": [
+            {
+            
+                "name": "我的世界下载专区",
+                "icon": "./assets/siteIcons/mc.png",
+                "url": "https://ios.youtube.com/",
+                "describe": "6666"
+            },
+            {
+                "name": "我的世界恐怖地图",
+                "icon": "./assets/siteIcons/mc.png",
+                "url": "https://wwo.lanzouu.com/b00b4ayxsh",
+                "describe": "6666"
+            },
+            {
+                "name": "3000倍掉落",
+                "icon": "./assets/siteIcons/mc.png",
+                "url": "https://pan.quark.cn/s/d1dc1118b269",
+                "describe": "3000倍掉落-整合包（究极懒人包）"
+            }
+        ]
+    }
+}
