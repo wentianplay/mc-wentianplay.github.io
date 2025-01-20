@@ -18,35 +18,6 @@
         <div class="main-container">
 
             <div class="center-container">
-                <!-- 搜索框部分 -->
-                <div class="search-box" v-if="settings.searchEngine">
-                    <!-- 搜索建议框 -->
-                    <div class="advice_box" v-if="advices.length>0">
-                        <div :class="index === advice_selected?'selected':''" class="advice_item" @mouseenter="advice_selected = index" v-for="advice,index in advices" @click="advice_clicked(index)">
-                            {{advice}}</div>
-                    </div>
-                    <!-- 选择搜索引擎 -->
-                    <div :class="show_engine_box?'show':'hide'" class="engine-box" @blur='hideEngineBox(30)' tabindex="0" hidefocus="true" v-show="show_engine_box === true">
-                        <div class="engine" v-for="engine,id in getEngines()" @click="settings.searchEngine.selected = id;hideEngineBox()">
-                            <div class="icon" :style="{backgroundImage:'url('+engine.icon+')',backgroundColor:engine.mainColor}"></div>
-                            <div class="name" >{{engine.name}}</div>
-                        </div>
-                        <div class="engine not_show" v-for="i in 4"></div>
-                    </div>
-                    <!-- 搜索框左侧图标 -->
-                    <div class="search-engins" :style="{backgroundColor:getSelectedEngine().mainColor}"
-                        @click="show_engine_box?hideEngineBox():showEngineBox()">
-                        <!-- @click="show_engine_box?hideEngineBox():showEngineBox()"> -->
-                        <div class="selected-icon" :style="{backgroundImage:'url('+getSelectedEngine().icon+')'}"></div>
-                        <div class="engine-name" :style="{color:getSelectedEngine().textColor}">
-                            {{getSelectedEngine().name}}</div>
-                        <div class="show-more"></div>
-                    </div>
-                    <!-- 搜索框主体 -->
-                    <input id="search-input" autocomplete="off" onkeydown="return input_keydown(event)"  oninput="showAdvice()" />
-                    <!-- 搜索按钮 -->
-                    <div class="search-btn" @click="search()"></div>
-                </div>
                 <!-- 网站列表部分 -->
                 <div class="sites-container">
                     <div class="second-kind" v-for="kind_val,kind_name,_ in sitesData">
