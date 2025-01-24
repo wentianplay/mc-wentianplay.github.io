@@ -7,12 +7,7 @@
                 "icon": "./assets/icon.ico",
                 "url": "https://WWW.WenTianPlay.com/",
                 "describe": "文天玩WenTian Play | 官方导航网站🐍 -文天玩网络科技有限公司"
-            }
-        ]
-    },
-    "官方网页导航": {
-        "icon": "",
-        "data": [
+            },
             {
                 "name": "国际站",
                 "icon": "./assets/icon.ico",
@@ -30,6 +25,43 @@
                 "icon": "./assets/icon.ico",
                 "url": "https://www.WenTianPlay.NET/",
                 "describe": "文天玩WenTianPlay数据站-文天玩网络科技有限公司"
+            
+            }
+        ]
+    },
+    "官方邮箱导航": {
+        "icon": "",
+        "data": [
+            {
+                "name": "邮箱联系(QQ)",
+                "icon": "wentianplay.com/assets/siteIcons/mail_QQ.png",
+                "url": "mailto:wentianplay@qq.com",
+                "describe": "苏天彬(苏文飞)-QQ邮箱"
+            },
+            {
+                "name": "邮箱联系(163网易)",
+                "icon": "wentianplay.com/assets/siteIcons/163.png",
+                "url": "mailto:wentianplay@163.com",
+                "describe": "苏天彬(苏文飞)-163网易邮箱"
+            },
+            {
+                "name": "邮箱联系(foxmail)",
+                "icon": "wentianplay.com/assets/siteIcons/foxmail.ico",
+                "url": "mailto:wentianplay@foxmail.com",
+                "describe": "苏天彬(苏文飞)-foxmail邮箱"
+            },
+            {
+                "name": "邮箱联系(Outlook)",
+                "icon": "wentianplay.com/assets/siteIcons/outlook.ico",
+                "url": "mailto:wentianplay@outlook.com",
+                "describe": "苏天彬(苏文飞)-Outlook邮箱"
+            },
+            {
+                "name": "邮箱联系(Gmail)",
+                "icon": "wentianplay.com/assets/siteIcons/mall-Gmail.png",
+                "url": "mailto:wentianplay@Gmail.com",
+                "describe": "苏天彬(苏文飞)-Gmail邮箱"
+            
             }
         ]
     },
