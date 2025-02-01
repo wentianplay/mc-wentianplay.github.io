@@ -34,31 +34,31 @@
         "data": [
             {
                 "name": "邮箱联系(QQ)",
-                "icon": "wentianplay.com/assets/siteIcons/mail_QQ.png",
+                "icon": "https://wentianplay.com/assets/siteIcons/mail_QQ.png",
                 "url": "mailto:wentianplay@qq.com",
                 "describe": "苏天彬(苏文飞)-QQ邮箱"
             },
             {
                 "name": "邮箱联系(163网易)",
-                "icon": "wentianplay.com/assets/siteIcons/163.png",
+                "icon": "https://wentianplay.com/assets/siteIcons/163.png",
                 "url": "mailto:wentianplay@163.com",
                 "describe": "苏天彬(苏文飞)-163网易邮箱"
             },
             {
                 "name": "邮箱联系(foxmail)",
-                "icon": "wentianplay.com/assets/siteIcons/foxmail.ico",
+                "icon": "https://wentianplay.com/assets/siteIcons/foxmail.ico",
                 "url": "mailto:wentianplay@foxmail.com",
                 "describe": "苏天彬(苏文飞)-foxmail邮箱"
             },
             {
                 "name": "邮箱联系(Outlook)",
-                "icon": "wentianplay.com/assets/siteIcons/outlook.ico",
+                "icon": "https://wentianplay.com/assets/siteIcons/outlook.ico",
                 "url": "mailto:wentianplay@outlook.com",
                 "describe": "苏天彬(苏文飞)-Outlook邮箱"
             },
             {
                 "name": "邮箱联系(Gmail)",
-                "icon": "wentianplay.com/assets/siteIcons/mall-Gmail.png",
+                "icon": "https://wentianplay.com/assets/siteIcons/mall-Gmail.png",
                 "url": "mailto:wentianplay@Gmail.com",
                 "describe": "苏天彬(苏文飞)-Gmail邮箱"
             
